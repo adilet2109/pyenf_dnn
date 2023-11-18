@@ -1,5 +1,5 @@
-# pyenf_extraction
-Python based, ENF extraction from video/audio recordings. 
+# pyenf_dnn
+Python based tools to train ENF spectrogram based Neural Network Model
 
 # Environments
 
@@ -16,13 +16,8 @@ Python = 3.9 is currently being tested with the libraries updated to their curre
 
 # Usage
 
-To test if the required python libraries are installed properly for audio recording based ENF estimation, run the following code with the input recording. A sample power recording is available in Rec_demo folder.
 ```
-python pyenf.py --file INPUT_FILENAME --nominal NOMINAL_FREQUENCY
 ```
 
-The defaults are already set to Rec_demo/power_recording.wav file and 60 Hz nominal frequency value. So, by simply running the program without any input should be enough to verify code functionality
-
 ```
-python pyenf.py
 ```
